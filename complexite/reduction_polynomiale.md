@@ -1,16 +1,5 @@
 # Réduction polynomiale
 
-## Objectifs pédagogiques
-
-À la fin de ce cours, l’étudiant sera capable de :
-
-1. Comprendre ce qu’est une réduction polynomiale.
-2. Savoir pourquoi elles sont importantes en algorithmique et en théorie de la complexité.
-3. Appliquer des réductions à des problèmes classiques comme le **TSP (Problème du voyageur de commerce)** ou le **problème du sac à dos**.
-4. Savoir lire et construire une réduction polynomiale.
-
----
-
 ## Pourquoi parle-t-on de réduction polynomiale ?
 
 ### Définition intuitive
@@ -77,8 +66,6 @@ Voici les principaux intérêts :
 
 - **Utiliser les réductions dans des raisonnements par l’absurde**  
   Les réductions sont souvent utilisées dans des **preuves par contradiction**. Par exemple, si on suppose qu’un problème A peut être résolu efficacement (en temps polynomial), alors, par réduction, on pourrait aussi résoudre un problème B que l’on sait être difficile (comme un problème NP-complet). Cette contradiction indique que notre hypothèse de départ est probablement fausse. Autrement dit, si résoudre A permettrait de résoudre un problème réputé difficile, alors A est lui aussi difficile.
-
-Voici la section complétée et reformulée de façon claire, pédagogique et sans emoji :
 
 ---
 
