@@ -144,9 +144,6 @@ Nous allons montrer comment transformer une instance du problème du cycle hamil
 
 Ainsi, **résoudre le TSP avec la borne k = n** dans ce graphe G’ revient à **répondre à la question du cycle hamiltonien dans G**. La transformation du graphe G en G’, et l’affectation des poids, se fait en **temps polynomial**, ce qui en fait bien une réduction polynomiale.
 
-### Conclusion
-
-Cette réduction permet de montrer que **le problème du cycle hamiltonien se réduit au TSP**, ce qui signifie que **TSP est au moins aussi difficile**. Comme le problème du cycle hamiltonien est NP-complet, cela contribue à montrer que **TSP est lui aussi NP-complet** (dans sa version de décision). Cette démarche est une des méthodes classiques pour établir la complexité d’un nouveau problème à partir d’un problème déjà connu.
 ---
 
 ## 5. Exemple : réduction du **problème de la somme des sous-ensembles (Subset Sum)** au **problème du sac à dos (Knapsack)**
@@ -194,7 +191,3 @@ Mais puisque poids = valeur pour tous les objets, cela revient à demander s’i
 - Si la réponse à Knapsack est "oui" dans cette configuration, alors le sous-ensemble sélectionné a poids total ≤ T et valeur ≥ T. Puisque poids = valeur, cela implique que la somme est exactement T, donc c’est aussi une solution pour Subset Sum.
 
 La transformation est donc correcte, et comme elle ne fait qu’associer chaque entier à une paire (poids, valeur), elle est **réalisable en temps polynomial**. Il s’agit bien d’une **réduction polynomiale**.
-
-### Conclusion
-
-Cette réduction montre que **Subset Sum est un cas particulier du problème du sac à dos**. Elle permet d’utiliser les résultats connus sur Knapsack (par exemple, sa NP-complétude) pour en déduire des résultats sur Subset Sum. Cela illustre comment, en complexité algorithmique, des problèmes différents en apparence peuvent être **profondément liés** par des transformations simples mais puissantes.
