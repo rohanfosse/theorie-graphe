@@ -4,7 +4,7 @@ Ce dossier regroupe les supports de cours, résumés théoriques et exercices co
 
 ## Contenu du dossier
 
-### 1. `complexite_intro.md`
+### 1. `classes_de_complexite.md`
 
 Introduction à la complexité algorithmique :
 
@@ -37,7 +37,7 @@ Cours complet sur les **problèmes NP-complets** :
 - Implications du problème P = NP
 - Présentation des 7 problèmes du millénaire
 
-### 4. `exercices_complexite.md`
+### 4. `exercices_corriges.md`
 
 Série d’**exercices progressifs corrigés**, pour mettre en pratique :
 
